@@ -19,37 +19,9 @@ A tool for exporting Azure resources from selected subscriptions and generating 
 
 ## Installation and Setup
 
-### Using Virtual Environment (Recommended)
+### Install UV
 
-1. Open WSL terminal and navigate to your project directory:
-   ```bash
-   cd /path/to/your/project
-   ```
-
-2. Create a new virtual environment:
-   ```bash
-   python3 -m venv azure-docs
-   ```
-
-3. Activate the virtual environment:
-   ```bash
-   source azure-docs/bin/activate
-   ```
-
-4. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-5. Run the application:
-   ```bash
-   python main.py
-   ```
-
-6. When finished, deactivate the virtual environment:
-   ```bash
-   deactivate
-   ```
+1. [See UV Installation Docs](https://docs.astral.sh/uv/getting-started/installation/)
 
 ### Standard Installation
 
@@ -59,16 +31,11 @@ A tool for exporting Azure resources from selected subscriptions and generating 
    cd azure-resource-exporter
    ```
 
-2. Install dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-
 ## Usage
 
-Run the application with default settings:
+UV will install dependencies and run with the default settings:
 ```bash
-python main.py
+uv run
 ```
 
 ### Command Line Options
