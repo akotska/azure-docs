@@ -1,0 +1,16 @@
+[project]
+name = "Azure_Docs"
+version = "0.1.0"
+description = "A tool to generate Azure documentation"
+readme = "README.md"
+dependencies = [
+    "azure-identity>=1.10.0",
+    "azure-mgmt-resource>=21.0.0",
+    "azure-mgmt-network>=19.0.0",
+    "azure-mgmt-compute>=26.0.0",
+    "azure-mgmt-storage>=19.0.0",
+    "azure-mgmt-sql>=3.0.0",
+    "rich>=12.0.0",
+    "jinja2>=3.0.0",
+    "pyyaml>=6.0"
+]
